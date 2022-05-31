@@ -3,7 +3,7 @@ const robux = (value) => {
     let outputRupiah = document.getElementById("rupiah")
     inputRobux.value = value
 
-    const fixedPrice = 187.79
+    const fixedPrice = 188
     let robux = value * fixedPrice
     console.log('robux bernilai = ', robux)
     
